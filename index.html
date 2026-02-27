@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HBL – Bank Homepage (Bootstrap)</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #0b0b0b;
+            color: white;
+        }
+
+        .hero {
+            height: 70vh;
+            background: linear-gradient(to right, #003d2e, #000);
+        }
+
+        .btn-hbl {
+            background-color: #00a884;
+            color: white;
+        }
+
+        .btn-hbl-outline {
+            border: 2px solid #00a884;
+            color: #00a884;
+            background: transparent;
+        }
+
+        .btn-hbl-outline:hover {
+            background-color: #00a884;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black px-5">
+    <a class="navbar-brand fw-bold text-success fs-4" href="#">HBL</a>
+
+    <div class="collapse navbar-collapse show">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Personal</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Business</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Islamic</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero d-flex align-items-center px-5">
+    <div>
+        <h1 class="display-5 fw-bold">OWN YOUR HOME WITH HBL</h1>
+        <p class="lead">Islamic Banking through Government’s Affordable Housing Scheme</p>
+        <button class="btn btn-hbl px-4 py-2">Learn More</button>
+    </div>
+</section>
+
+<!-- MOBILE BANKING -->
+<section class="py-5 text-center">
+    <h2 class="fw-bold">ELEVATE YOUR BANKING EXPERIENCE</h2>
+    <p>Anytime, Anywhere</p>
+    <button class="btn btn-hbl-outline">HBL Mobile</button>
+</section>
+
+<!-- DISCOUNTS -->
+<section class="py-5 text-center">
+    <h2 class="fw-bold mb-4">WHO DOESN’T LOVE DISCOUNTS?</h2>
+
+    <div class="d-flex justify-content-center gap-3 flex-wrap">
+        <button class="btn border border-success text-white p-4 rounded-3">
+            <span class="text-success small">UP TO 20% OFF</span><br>
+            <strong>HBL Cards</strong>
+        </button>
+
+        <button class="btn border border-success text-white p-4 rounded-3">
+            <span class="text-success small">10% OFF</span><br>
+            <strong>Daraz</strong>
+        </button>
+    </div>
+</section>
+
+<!-- CARD TYPES -->
+<section class="py-5 bg-dark text-center">
+    <h2 class="fw-bold mb-4">ACCESS ENDLESS POSSIBILITIES</h2>
+
+    <div class="d-flex justify-content-center gap-3 flex-wrap">
+        <button class="btn btn-dark px-5 py-3 rounded-3">HBL Credit Card</button>
+        <button class="btn btn-warning px-5 py-3 rounded-3">HBL Debit Card</button>
+    </div>
+</section>
+
+<!-- FINANCE CALCULATOR -->
+<section class="py-5 text-center">
+    <h2 class="fw-bold mb-4">LET'S PLAN YOUR FINANCES</h2>
+
+    <form class="d-flex justify-content-center gap-2 flex-wrap">
+        <input type="number" class="form-control w-auto" placeholder="Amount (PKR)">
+        <select class="form-select w-auto">
+            <option>12 Months</option>
+            <option>24 Months</option>
+            <option>36 Months</option>
+        </select>
+        <button class="btn btn-hbl">Calculate</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-black text-center py-3">
+    <p class="mb-0 small">© 2025 HBL. All Rights Reserved.</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
